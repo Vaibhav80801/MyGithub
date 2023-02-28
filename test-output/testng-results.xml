@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-28T10:07:37Z" name="Default suite" finished-at="2023-02-28T10:07:37Z" duration-ms="36">
+    <groups>
+    </groups>
+    <test started-at="2023-02-28T10:07:37Z" name="Default test" finished-at="2023-02-28T10:07:37Z" duration-ms="36">
+      <class name="TestNG_1.Cross_Browsing_Testing">
+        <test-method is-config="true" signature="LaunchAUT(java.lang.String)[pri:0, instance:TestNG_1.Cross_Browsing_Testing@1583741e]" started-at="2023-02-28T15:37:37Z" name="LaunchAUT" finished-at="2023-02-28T15:37:37Z" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method LaunchAUT but has not been marked @Optional or defined
+in C:\Users\vaibh\AppData\Local\Temp\testng-eclipse-963135558\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method LaunchAUT but has not been marked @Optional or defined
+in C:\Users\vaibh\AppData\Local\Temp\testng-eclipse-963135558\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:355)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAUT -->
+        <test-method signature="GetTitle()[pri:0, instance:TestNG_1.Cross_Browsing_Testing@1583741e]" started-at="2023-02-28T15:37:37Z" name="GetTitle" finished-at="2023-02-28T15:37:37Z" duration-ms="9" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTitle -->
+        <test-method is-config="true" signature="LaunchAUT(java.lang.String)[pri:0, instance:TestNG_1.Cross_Browsing_Testing@1583741e]" started-at="2023-02-28T15:37:37Z" name="LaunchAUT" finished-at="2023-02-28T15:37:37Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAUT -->
+        <test-method signature="Send_info()[pri:0, instance:TestNG_1.Cross_Browsing_Testing@1583741e]" started-at="2023-02-28T15:37:37Z" name="Send_info" finished-at="2023-02-28T15:37:37Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Send_info -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:TestNG_1.Cross_Browsing_Testing@1583741e]" started-at="2023-02-28T15:37:37Z" name="tear_down" finished-at="2023-02-28T15:37:37Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- TestNG_1.Cross_Browsing_Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
