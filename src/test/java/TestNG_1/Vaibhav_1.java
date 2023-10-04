@@ -13,7 +13,7 @@ public class Vaibhav_1 {
 	@BeforeMethod
 	public void Senddata()
 	{
-		
+		System.out.println("Hiiii Vaibhav");
 	}
 	
 	
